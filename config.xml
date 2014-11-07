@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.altusvms.bbbapp"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>BBBApp</name>
-
+        versionCode = "10"
+        version     = "1.1.0">
+ 
+    <name>Camera Sample</name>
+ 
     <description>
-        Facebook integrated Buy, Beg, Barter Groups App. 
+        A simple employee directory application
     </description>
-
-    <author href="https://www.altusvms.com" email="bill@altusvms.com">
+ 
+    <author href="http://altusvms.com" email="bill@floggi.com">
         Bill Blondin
     </author>
-
+ 
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
 </widget>
